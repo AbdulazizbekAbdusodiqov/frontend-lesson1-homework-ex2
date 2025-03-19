@@ -1,7 +1,13 @@
+@font-face {
+    font-family: josefin;
+    src: url("../fonts/JosefinSans-Italic.ttf");
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: josefin;
 }
 
 .container {
@@ -20,6 +26,7 @@
     color: grey ;
     
 }
+
 
 .table {
     border-collapse: collapse;
